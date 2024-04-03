@@ -121,6 +121,7 @@ def get_keys():
     #         found_available_key = True
     #         break
 
+    # TODO : add an index on available
     res = collection.find_one_and_update({"available": True}, {
         "$set": {
                 "use_time": datetime.now(),
