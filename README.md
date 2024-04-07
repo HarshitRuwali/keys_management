@@ -1,2 +1,7 @@
+# keys management
+
+A Flask project to assign api keys like objects and to manage them using MongoDB as the database.
+
 Author: Harshit Ruwali
-Email: ruwaliharshit@gmail.com
+
+email: ruwaliharshit@gmail.com
